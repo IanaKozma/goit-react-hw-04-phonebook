@@ -12,7 +12,6 @@ export const ContactForm = ({onSubmit}) => {
   const onSubmitForm = e => {
     e.preventDefault();
     onSubmit({name, number});
-    onSubmit(this.state);
     reset();
   };
 
